@@ -59,6 +59,7 @@ $(document).keypress(function(e) {
   $ascNum = e.which;
   $('#'+ $ascNum).addClass('highlighted');
 
+
   if(!$typeSessionOver){
     if ($index === 0 && $words === 0) {
       $startTypeSession = e.timeStamp;
