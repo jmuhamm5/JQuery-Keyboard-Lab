@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#prompt-container {
+  font-family: Courier New, Courier, monospace;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+#typing-block {
+  position: absolute;
+  margin-top: 3px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  left: 12px;
+  right: 0;
+  width: 17px;
+  height: 24px;
+  background-color: yellow;
+}
+
+.well {
+  color: black;
+  background-color: #f4f4f4;
+}
+
+.keyboard-container {
+  margin-top: 200px;
+}
+
+#target-letter {
+  font-size: 38px;
+}
+
+.keys-row {
+  margin-top: 40px;
+  padding: 10px 0;
+}
+
+#feedback {
+  font-size: 20px;
+}
+.glyphicon-ok {
+  color: #1DA237;
+}
+
+.glyphicon-remove {
+  color : #CD2626;
+}
+
+.highlighted {
+  background: yellow;
+}
